@@ -51,4 +51,4 @@ func remove_sphere():
 	spheres_left -= 1
 	
 	if sphere_ui:
-		sphere_ui.update(spheres_left)
+		sphere_ui.update_ui(spheres_left)

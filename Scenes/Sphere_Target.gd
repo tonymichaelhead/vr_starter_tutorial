@@ -20,7 +20,7 @@ func _physics_process(delta):
 		
 		
 func damage(bullet_global_transform, damage):
-	
+	print("SPHERE DAMAGE!")
 	if destroyed:
 		return
 		

@@ -32,7 +32,7 @@ func interact():
 
 		for raycast in raycasts.get_children():
 
-			raycast.rotation_degrees = Vector3(90 + rand_range(10, -10), 0, rand_range(10, 10))
+			raycast.rotation_degrees = Vector3(90 + rand_range(10, -10), 0, rand_range(10, -10))
 
 			raycast.force_raycast_update()
 			if raycast.is_colliding():

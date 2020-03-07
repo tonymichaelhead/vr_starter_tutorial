@@ -35,7 +35,9 @@ func _physics_process(delta):
 			collision_mask = 0
 			mode = RigidBody.MODE_STATIC
 
-			for body in explosion_area.get_overlapping_areas():
+			for body in explosion_area.get_overlapping_bodies():
+				print("DETECETD")
+				print(body)
 				if body == self:
 					pass
 				else:
